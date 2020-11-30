@@ -1,0 +1,115 @@
+@import "../../Vartiables.scss";
+
+
+.maindiv {
+    margin: 1vh;
+}
+
+div {
+
+    .hoverdiv {
+        height: 22.1vh;
+        opacity: 1;
+        margin-bottom: 2vh;
+        transition: all 300ms;
+    }
+
+    button {
+        top: 0px;
+        width: 19.3vw; // later - to columns
+        height: 22.1vh; // later - to columns
+        padding: 5%;
+
+        background: $colorExtrimLightBlue; // to variable
+        border-radius: 10px;
+        border: none;
+
+        transition: all 301ms;
+
+        h4 {
+            font-style: normal;
+            font-weight: 800;
+            font-size: 1vw;
+            line-height: 24px;
+            text-align: center;
+        }
+
+        h3 {
+            display: none;
+        }
+
+        p {
+            display: none;
+        }
+    }
+}
+
+
+.none:hover {
+    button {
+        position: relative;
+        background: $colorElectricBlue; // to variable
+        box-shadow: 0 4px 50px $colorShadowElectricBlue; // rgba - to variable
+        top: -20px;
+        cursor: pointer;
+
+        h4 {
+            color: $white; // rgba - to variable
+        }
+    }
+}
+
+
+
+.open {
+
+    // to variable
+    .hoverdiv {
+        height: 46.2vh;
+
+    }
+
+    button {
+        background: $white;
+        height: 46.2vh;
+        z-index: 10;
+        box-shadow: 0 0px 4px $blackBoxShadow;
+        outline: none;
+
+        h4 {
+            display: none; // rgba - to variable
+        }
+
+        h3 {
+            display: flex;
+            font-size: 1.5vw;
+            line-height: 30px;
+        }
+
+        p {
+            display: flex;
+            font-size: 1vw;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+    }
+}
+
+.close {
+    button {
+        height: 0;
+        opacity: 0;
+        padding: 0px;
+
+        h4 {
+            font-size: 0px;
+        }
+    }
+
+    .hoverdiv {
+        height: 0;
+        opacity: 0;
+        margin: 0;
+    }
+}

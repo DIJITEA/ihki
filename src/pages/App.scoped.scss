@@ -1,0 +1,19 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.mainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.centralDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
