@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ihki/static/css/main.b8704be8.chunk.css",
+    "main.js": "/ihki/static/js/main.f7590eb7.chunk.js",
+    "main.js.map": "/ihki/static/js/main.f7590eb7.chunk.js.map",
+    "runtime-main.js": "/ihki/static/js/runtime-main.d5b6e5ac.js",
+    "runtime-main.js.map": "/ihki/static/js/runtime-main.d5b6e5ac.js.map",
+    "static/js/2.cdc862d8.chunk.js": "/ihki/static/js/2.cdc862d8.chunk.js",
+    "static/js/2.cdc862d8.chunk.js.map": "/ihki/static/js/2.cdc862d8.chunk.js.map",
+    "static/js/3.ffafd8bd.chunk.js": "/ihki/static/js/3.ffafd8bd.chunk.js",
+    "static/js/3.ffafd8bd.chunk.js.map": "/ihki/static/js/3.ffafd8bd.chunk.js.map",
+    "index.html": "/ihki/index.html",
+    "static/css/main.b8704be8.chunk.css.map": "/ihki/static/css/main.b8704be8.chunk.css.map",
+    "static/js/2.cdc862d8.chunk.js.LICENSE.txt": "/ihki/static/js/2.cdc862d8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5b6e5ac.js",
+    "static/js/2.cdc862d8.chunk.js",
+    "static/css/main.b8704be8.chunk.css",
+    "static/js/main.f7590eb7.chunk.js"
+  ]
+}
